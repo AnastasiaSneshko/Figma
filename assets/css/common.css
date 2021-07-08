@@ -1,0 +1,44 @@
+.section-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.3;
+}
+
+.section-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+}
+
+.scale-one,
+.scale-two,
+.scale-three {
+  display: block;
+  width: 445px;
+  height: 4px;
+  background-color: #c4c4c4;
+  margin-bottom: 20px;
+}
+
+.scale-one::before,
+.scale-two::before,
+.scale-three::before{
+  content: "";
+  display: block;
+  height: inherit;
+  background-color: #34547A;
+}
+
+
+.scale-one::before{
+  width: 70%;
+}
+.scale-two::before{
+  width: 50%;
+}
+.scale-three::before {
+  width: 90%;
+}
