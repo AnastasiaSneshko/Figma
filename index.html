@@ -1,12 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-</head>
-<body>
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <title>WD</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-flex">
+        <h1 class="logo-header"><a class="link link-logo" href="#">WD</a></h1>
+        <nav class="nav">
+          <button class="burger-wrapper">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+          </button>
+          <ul class="nav-list">
+            <li class="list-item">
+              <a href="#" class="link nav-link">Главная</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="link nav-link">Об авторе</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="link nav-link">Работы</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="link nav-link">Процесс</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="link nav-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="greeting-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="greeting-img-wrapper">
+              <img
+                class="greeting-img"
+                src="/assets/image/gretting-photo.png"
+                alt="greeting"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <article class="greeting-article">
+              <h2 class="main-heading greet-head-margins">Дизайн и верстка</h2>
+              <p class="text-content">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+                текстов на латинице с начала XVI века.
+              </p>
+              <button class="btn greet-btn-margins">Написать мне</button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

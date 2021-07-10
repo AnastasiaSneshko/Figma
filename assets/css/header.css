@@ -1,0 +1,70 @@
+.header {
+  padding: 20px 0;
+  background-color: var(--bg-color);
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-header {
+  font-family: "Revalia", cursive;
+  font-size: 3rem;
+  color: var(--accent-color);
+}
+
+.link-logo {
+  display: block;
+  margin-top: -5px;
+}
+
+.burger-wrapper {
+  --burger-sise: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: var(--burger-sise);
+  height: var(--burger-sise);
+
+  padding: 10px;
+  background: transparent;
+  border: none;
+}
+
+.burger-line {
+  height: 3px;
+  width: 100%;
+
+  border-radius: 10px;
+  background-color: #34547a;
+}
+
+.nav-list {
+  display: none;
+  overflow: auto;
+}
+
+.nav-link {
+  white-space: nowrap;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.list-item + .list-item {
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 576px) {
+  .burger-wrapper {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+}
