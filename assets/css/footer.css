@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--accent-color);
+  color: white;
+  text-align: center;
+}
+
+.space-between-section {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icon {
+  margin: 0 20px;
+}
+
+.footer-content {
+  margin: 20px;
+}
