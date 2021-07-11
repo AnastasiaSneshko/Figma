@@ -1,0 +1,27 @@
+.project {
+  background-color: var(--accent-color);
+}
+
+.project-items {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.project-content {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-num {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .project-items{
+    margin: 30px 20px;
+  }
+}

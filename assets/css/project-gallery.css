@@ -1,0 +1,50 @@
+.project-card-img{
+  width: 100%;
+  display: block;
+}
+
+.project-card {
+  position: relative;
+}
+
+.project-gallery-content {
+  display: none;
+  padding: 30px;
+  z-index: 1;
+  color: #fff;
+}
+
+.project-gallery-content,
+.project-gallery-content::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.project-gallery-content::before {
+  content: "";
+  opacity: 0;
+  background-color: var(--accent-color);
+  z-index: -1;
+}
+
+.project-card:hover > .project-gallery-content,
+.project-card:active > .project-gallery-content,
+.project-card:focus > .project-gallery-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-card:hover > .project-gallery-content::before,
+.project-card:active > .project-gallery-content::before,
+.project-card:focus > .project-gallery-content::before {
+  opacity: 0.6;
+}
+
+@media screen and (max-width:992px){
+
+}

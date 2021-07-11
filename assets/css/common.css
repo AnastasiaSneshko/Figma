@@ -3,6 +3,7 @@
   --bg-color: #EEEFF1;
   --secondary-bg-color: #fff;
   --text-color: #727272;
+  --scale-color: #c4c4c4;
  
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -30,6 +31,10 @@
   line-height: 1.4;
 }
 
+.color-override {
+  color: inherit;
+}
+
 .main-heading,
 .sub-heading { 
   font-weight: 500;
@@ -41,6 +46,7 @@
 
 .sub-heading {
   font-size: 2rem;
+  margin-bottom: 30px;
 }
 
 .btn {
@@ -53,6 +59,12 @@
   background-color: var(--accent-color);
   color: var(--secondary-bg-color);
 }
+
+.section-padding{  
+  padding: 60px 0;
+}
+
+
 
 @media screen and (min-width: 576px){
   :root {
